@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transit Schedule</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body { background-color: #f8f9fa; color: #212529; font-family: Arial, sans-serif; }
+        .navbar { background-color: #343a40; padding: 15px; }
+        .navbar a { color: #ffffff; font-weight: bold; }
+        .container { text-align: center; padding: 20px; }
+        .schedule-table { margin-top: 20px; background-color: #ffffff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); padding: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #007bff; color: white; }
+        footer { background-color: #6c757d; color: white; padding: 15px; text-align: center; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">🚆 Transit Hub</a>
+        <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Fare Guide</a>
+            <a class="nav-link active" href="page2.html">Transit Schedule</a>
+            <a class="nav-link" href="page3.html">Contact Info</a>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+        <h1>Transit Schedule</h1>
+        <div class="schedule-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Route</th>
+                        <th>Departure Time</th>
+                        <th>Arrival Time</th>
+                        <th>Frequency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Roosevelt to Baclaran</td>
+                        <td>06:00 AM</td>
+                        <td>07:30 AM</td>
+                        <td>Every 10 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>Baclaran to Roosevelt</td>
+                        <td>06:15 AM</td>
+                        <td>07:45 AM</td>
+                        <td>Every 10 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>Monumento to EDSA</td>
+                        <td>06:30 AM</td>
+                        <td>07:00 AM</td>
+                        <td>Every 15 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>EDSA to Monumento</td>
+                        <td>06:45 AM</td>
+                        <td>07:15 AM</td>
+                        <td>Every 15 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>Central Terminal to Vito Cruz</td>
+                        <td>07:00 AM</td>
+                        <td>07:45 AM</td>
+                        <td>Every 20 minutes</td>
+                    </tr>
+                    <tr>
+                        <td>Vito Cruz to Central Terminal</td>
+                        <td>07:15 AM</td>
+                        <td>08:00 AM</td>
+                        <td>Every 20 minutes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+ 
+</body>
+</html>
